@@ -1,0 +1,28 @@
+{
+    "satCode2ICode": {
+        "L5": "LANDSAT/LT05/C02/T1_TOA",
+        "L7": "LANDSAT/LE07/C02/T1_TOA",
+        "L8": "LANDSAT/LC08/C02/T1_TOA",
+        "L9": "LANDSAT/LC09/C02/T1_TOA",
+        "S2": "COPERNICUS/S2_HARMONIZED"},
+    "satCode2RGBBandsCodes": {
+        "00": ["B3", "B2", "B1"],
+        "L5": ["B3", "B2", "B1"],
+        "L7": ["B3", "B2", "B1"],
+        "L8": ["B4", "B3", "B2"],
+        "L9": ["B4", "B3", "B2"],
+        "S2": ["B4", "B3", "B2"]},
+    "satCode2DownloadBandsCodes": {
+        "L5": "all",
+        "L7": "RGB",
+        "L8": "RGB",
+        "L9": "RGB",
+        "S2": "RGB"},
+    "satCode2ResCodes": {
+        "L5": ["R30"],
+        "L7": ["R30"],
+        "L8": ["R30"],
+        "L9": ["R30"],
+        "S2": ["R30", "R10"]},
+    "resCode2Res": {"R30": 30.0, "R10": 10.0}
+}
