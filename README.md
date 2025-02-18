@@ -4,7 +4,7 @@
 
 ### Description
 The algorithm for co-registration and georeferentation of satellite images assumes that images can be realigned through an isometric transformation. The image alignment is achieved by minimising the distances between common image features. Clustering techniques are used to obtain a high quality set of aligned images without outliers. As a result of the process, the metadata information related to the geotransformation of the satellite images (GeoTIFF) is corrected and co-registered PNG images are derived. The development of this software is aimed for obtaining images to accurately determine shoreline displacements. In general, it can be used for the precise detection of features at different times. Details about the algorithm and methodology are described in
-> *Simarro, G.; Calvete, D.; Ribas, F.; Castillo Y.; Puig-Polo, C. UOrtos: A Python Tool for Subpixel co-registration of Landsat and Sentinel 2 Imagery. Remote Sens. 2025, xx, xxxx. https://doi.org/10.3390/rs12345678*
+> *Simarro, G.; Calvete, D.; Ribas, F.; Castillo Y.; Puig-Polo, C. UOrtos: Methodology for co-registration and subpixel georeferencing of satellite imagery for coastal monitoring. Remote Sens. 2025, xx, xxxx. https://doi.org/10.3390/rs3511428*
 
 The co-registration process consists of the following steps:
 
@@ -214,7 +214,7 @@ UOrtos is released under a [GPLv3 license](https://github.com/Ulises-ICM-UPC/UOr
 
     @Article{rs12345678,
       AUTHOR = {Simarro, Gonzalo and Calvete, Daniel and Ribas, Francesca and Castillo, Yerai and {Puig-Polo}, Carol},
-      TITLE = {UOrtos: A Python Tool for Subpixel co-registration of Landsat and Sentinel 2 Imagery},
+      TITLE = {UOrtos: Methodology for co-registration and subpixel georeferencing of satellite imagery for coastal monitoring},
       JOURNAL = {Remote Sensing},
       VOLUME = {xx},
       YEAR = {2025},
@@ -222,7 +222,7 @@ UOrtos is released under a [GPLv3 license](https://github.com/Ulises-ICM-UPC/UOr
       ARTICLE-NUMBER = {xxxx},
       URL = {https://www.mdpi.com/2072-4292/xx/xx/xxxx},
       ISSN = {2072-4292},
-      DOI = {10.3390/rs12345678}
+      DOI = {10.3390/rs3511428}
       }
 
     @Online{ulisesortos, 
