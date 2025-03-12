@@ -982,7 +982,7 @@ def ORBKeypoints(img, options={}): # lm:2021-09-22; lr:2025-02-03
         if options['mask'] is not None:
             kps, des = orb.detectAndCompute(img, mask=options['mask'])
         else:
-            kps, des = orb.detectAndCompute(img)  # it was (img, None) 2025-02-03
+            kps, des = orb.detectAndCompute(img, None)  # it was (img, None) 2025-02-03
         assert len(kps) == len(des) > 0
         ctrl = True
     except Exception:
