@@ -220,8 +220,7 @@ UOrtos is released under a [GPLv3 license](https://github.com/Ulises-ICM-UPC/UOr
       YEAR = {2025},
       NUMBER = {7},
       ARTICLE-NUMBER = {1160},
-      URL = {https://www.mdpi.com/2072-4292/17/7/1160
-},
+      URL = {https://www.mdpi.com/2072-4292/17/7/1160},
       ISSN = {2072-4292},
       DOI = {10.3390/rs3511428}
       }
