@@ -4,7 +4,7 @@
 
 ### Description
 The algorithm for co-registration and georeferentation of satellite images assumes that images can be realigned through an isometric transformation. The image alignment is achieved by minimising the distances between common image features. Clustering techniques are used to obtain a high quality set of aligned images without outliers. As a result of the process, the metadata information related to the geotransformation of the satellite images (GeoTIFF) is corrected and co-registered PNG images are derived. The development of this software is aimed for obtaining images to accurately determine shoreline displacements. In general, it can be used for the precise detection of features at different times. Details about the algorithm and methodology are described in
-> *Simarro, G.; Calvete, D.; Ribas, F.; Castillo Y.; Puig-Polo, C. UOrtos: Methodology for co-registration and subpixel georeferencing of satellite imagery for coastal monitoring. Remote Sens. 2025, 17(7), 1160. https://doi.org/10.3390/rs17071160
+> Simarro, G.; Calvete, D.; Ribas, F.; Castillo Y.; Puig-Polo, C. UOrtos: Methodology for co-registration and subpixel georeferencing of satellite imagery for coastal monitoring. Remote Sens. 2025, 17(7), 1160. https://doi.org/10.3390/rs17071160
 
 The co-registration process consists of the following steps:
 
